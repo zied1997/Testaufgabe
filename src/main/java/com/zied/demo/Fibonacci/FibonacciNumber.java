@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class FibonacciNumber {
 
-    private int DB =55;
 
     public int nthFibonacciNumber(int n) {
         double phi = (1 + Math.sqrt(5))/2;
